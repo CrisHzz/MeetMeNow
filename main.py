@@ -27,7 +27,7 @@ if __name__ == "__main__":
             # Verifica el tiempo transcurrido
             current_time = time.time()
             if current_time - last_time >= interval:
-                # Realiza el análisis de la cara (género, edad, emoción)
+                # make  the analysis for the face (gender, age, emotion)
                 gender, age, emotion = face_analyzer(resized)
 
                 # If the face is detected, update the results
